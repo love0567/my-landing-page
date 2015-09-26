@@ -1,0 +1,63 @@
+body {
+	text-align: center;
+	background: white;
+	color: black;
+	font-family: arial;
+}
+
+img {
+
+	border-radius: 30px;
+    border: 10px solid blue;
+}
+
+ul {	
+	border-radius: 20px;
+    border: 10px solid black;
+    list-style-position: inside;
+}
+
+input[type="submit"] {
+	background: red;
+	color: white;
+	border: 5px;
+}
+
+
+.demo {
+	color: purple;
+}
+
+header {
+	text-align: center;
+}
+
+
+.nav-items {
+	display:inline;
+	padding: 10px;
+}
+
+#navigation {
+	border:none;
+}
+
+#left-div {
+	height: 100px;
+	width: 49%;
+	display: inline-block;
+	color:white;
+	background-color: blue;
+}
+
+#right-div {
+	height: 100px;
+	width: 49%;
+	display: inline-block;
+	color: white;
+	background-color: red;
+}
+
+#clear-example {
+	clear:both; 
+}
